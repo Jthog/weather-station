@@ -1,0 +1,22 @@
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\bin\Debug\Wetterstation_Projekt.exe.config
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\bin\Debug\Wetterstation_Projekt.exe
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\bin\Debug\Wetterstation_Projekt.pdb
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt.csproj.AssemblyReference.cache
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\MainWindow.g.cs
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\App.g.cs
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt_MarkupCompile.cache
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt_MarkupCompile.lref
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\App.baml
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\MainWindow.baml
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt.g.resources
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt.Properties.Resources.resources
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt.csproj.GenerateResource.cache
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt.csproj.CoreCompileInputs.cache
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt.exe
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterstation_Projekt.pdb
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\User Control\Wettervorhersage.g.cs
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\User Control\Wettervorhersage.baml
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\bin\Debug\Newtonsoft.Json.dll
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\bin\Debug\Newtonsoft.Json.xml
+C:\Users\donat\source\repos\Wetterstation_Projekt\Wetterstation_Projekt\obj\Debug\Wetterst.DB341398.Up2Date

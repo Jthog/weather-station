@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|c:\\users\\donat\\source\\repos\\wetterstation_projekt\\wetterstation_projekt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\wetterstation_projekt\\viewmodel\\wetterstationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\viewmodel\\wetterstationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\wetterstation_projekt\\user control\\wettervorhersage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\user control\\wettervorhersage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\wetterstation_projekt\\model\\wetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\model\\wetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\wetterstation_projekt\\model\\wetterstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\model\\wetterstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\wetterstation_projekt\\viewmodel\\wettervorhersageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\viewmodel\\wettervorhersageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\wetterstation_projekt\\api\\weatherappresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\api\\weatherappresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\wetterstation_projekt\\model\\wettervorhersage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA80A478-73B9-4C42-A38E-0EA39C7A1674}|Wetterstation_Projekt\\Wetterstation_Projekt.csproj|solutionrelative:wetterstation_projekt\\model\\wettervorhersage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wetter.cs",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\Model\\Wetter.cs",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\Model\\Wetter.cs",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\Model\\Wetter.cs",
+              "RelativeToolTip": "Wetterstation_Projekt\\Model\\Wetter.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAowN8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T09:34:13.951Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WettervorhersageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\ViewModel\\WettervorhersageViewModel.cs",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\ViewModel\\WettervorhersageViewModel.cs",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\ViewModel\\WettervorhersageViewModel.cs",
+              "RelativeToolTip": "Wetterstation_Projekt\\ViewModel\\WettervorhersageViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T09:40:19.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Wettervorhersage.cs",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\Model\\Wettervorhersage.cs",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\Model\\Wettervorhersage.cs",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\Model\\Wettervorhersage.cs",
+              "RelativeToolTip": "Wetterstation_Projekt\\Model\\Wettervorhersage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T09:39:59.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WetterstationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\ViewModel\\WetterstationViewModel.cs",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\ViewModel\\WetterstationViewModel.cs",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\ViewModel\\WetterstationViewModel.cs",
+              "RelativeToolTip": "Wetterstation_Projekt\\ViewModel\\WetterstationViewModel.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAqwEgBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T09:27:51.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherAppResponse.cs",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\API\\WeatherAppResponse.cs",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\API\\WeatherAppResponse.cs",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\API\\WeatherAppResponse.cs",
+              "RelativeToolTip": "Wetterstation_Projekt\\API\\WeatherAppResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:52:18.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Wettervorhersage.xaml",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\User Control\\Wettervorhersage.xaml",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\User Control\\Wettervorhersage.xaml",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\User Control\\Wettervorhersage.xaml",
+              "RelativeToolTip": "Wetterstation_Projekt\\User Control\\Wettervorhersage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-14T09:44:23.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Wetterstation.cs",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\Model\\Wetterstation.cs",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\Model\\Wetterstation.cs",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\Model\\Wetterstation.cs",
+              "RelativeToolTip": "Wetterstation_Projekt\\Model\\Wetterstation.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswCsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T09:23:19.349Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "656639d9-f918-41de-843e-7524506d051f",
+        "Display": 0,
+        "X": 32,
+        "Y": 79,
+        "Width": 1496,
+        "Height": 641,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wetterstation_Projekt\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\donat\\source\\repos\\Wetterstation_Projekt\\Wetterstation_Projekt\\MainWindow.xaml*",
+              "RelativeToolTip": "Wetterstation_Projekt\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T12:53:14.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

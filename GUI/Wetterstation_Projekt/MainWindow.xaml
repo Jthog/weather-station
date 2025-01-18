@@ -1,0 +1,233 @@
+﻿<Window x:Class="Wetterstation_Projekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wetterstation_Projekt"
+        xmlns:uc="clr-namespace:Wetterstation_Projekt.User_Control"
+        xmlns:vm="clr-namespace:Wetterstation_Projekt.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="810" Width="995" Background="Transparent" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen" Icon="/Bilder/wetterlogo.jpg">
+
+    <Window.DataContext>
+        <vm:WetterstationViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="260"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!--Linke Seite-->
+        <Border CornerRadius="30 0 0 30" Background="#ffffffff">
+            <StackPanel>
+                <StackPanel Margin="50 60 0 0">
+                    <Image Source="{Binding Bild}" Width="140" HorizontalAlignment="Left"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Temperatur}"  FontSize="46" FontWeight="SemiBold" Margin="10 20 0 0"/>
+                        <TextBlock Text="°C" FontSize="26" VerticalAlignment="Bottom" Margin="5 0 0 0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Gefühlt wie " FontSize="18" VerticalAlignment="Bottom" Margin="10 0 0 0"/>
+                        <TextBlock Text="{Binding TemperaturGefuehlt}"  FontSize="18" FontWeight="SemiBold" Margin="0 20 0 0"/>
+                        <TextBlock Text="°C" FontSize="18" VerticalAlignment="Bottom" Margin="5 0 0 0"/>
+                    </StackPanel>
+                    <TextBlock Text="{Binding Status}" FontSize="18" FontWeight="SemiBold" Margin="10 0 0 0" VerticalAlignment="Center"/>
+
+                    <Separator Background="#dadada" Height="0.8" Margin="3 30 40 30"/>
+                    
+                    <TextBlock Text="{Binding Uhrzeit}" FontSize="40" />
+                    <TextBlock Text="{Binding Datum}" FontSize="17" FontWeight="SemiBold" Margin="0 15 0 0"/>
+
+                    <Separator Background="#dadada" Height="0.8" Margin="3 30 40 30"/>
+                </StackPanel>
+                
+                <Border CornerRadius="15" Background="Beige" Margin="30 5">
+                    <Border CornerRadius="15" Padding="0 30">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/Bilder/wetterlogo.jpg" Stretch="UniformToFill" Opacity="0.65"/>
+                        </Border.Background>
+
+                        <TextBlock Text="WetterStation" Foreground="#000" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold"/>
+                    </Border>
+
+                </Border>
+            </StackPanel>
+
+        </Border>
+        
+        <!--Rechte Seite-->
+        <Border CornerRadius="0 30 30 0" Background="#ffffffff" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="1">
+                    <uc:Wettervorhersage/>
+                </Grid>
+
+                <!--<Grid Grid.Row="0">
+                    <TextBlock Text ="{Binding Label}" Margin="20" Foreground="Red"/>
+                </Grid>-->
+
+                <StackPanel Orientation="Horizontal" Grid.Row="2">
+                    <TextBlock Text="Heutiges Wetter in" FontSize="16" FontWeight="SemiBold" Margin="40 10 0 10" />
+                    <TextBlock Text="{Binding Ort}" FontSize="16" FontWeight="SemiBold" Margin="5 10 0 10" />
+                </StackPanel>
+
+                <WrapPanel Grid.Row="2" Margin="40 20 0 0">
+                    <!--Widget 1-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <StackPanel>
+                            <TextBlock Text="UV Index" Style="{StaticResource titleText}"/>
+                            <Slider Style="{DynamicResource SliderStyle}" VerticalAlignment="Bottom" Value="{Binding Uv, Mode=OneWay}" Maximum="10" Margin="0 35 0 0" IsHitTestVisible="False" Focusable="False"/>
+                            <TextBlock Text="{Binding DisplayUvText}" FontWeight="SemiBold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#9a9a9a"/>
+
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 20 0 0">
+                                <TextBlock Text="{Binding UvStatus}" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                                <Image Source="{Binding UvStatusBild}" Width="25" Height="25" Margin="10 0 0 0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!--Widget 2-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <Grid>
+                            <TextBlock Text="Wind Status" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding Windstatus}" FontSize="34" FontWeight="SemiBold"/>
+                                <TextBlock Text="km/h" FontSize="14" VerticalAlignment="Bottom" Margin="5 0 0 3"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                                <Image Source="/Bilder/kompass.png" Width="25" Height="25" Margin="0 0 10 0"/>
+                                <TextBlock Text="{Binding Windrichtung}" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <!--Widget 3-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <StackPanel>
+                            <TextBlock Text="Astro" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 25 0 0">
+                                <Image Source="/Bilder/sunrise.png" Width="40" Height="40" Margin="0 0 10 0"/>
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Sonnenaufgang}"  FontSize="16" FontWeight="SemiBold"/>
+                                        <TextBlock Text="Uhr" FontSize="12" VerticalAlignment="Bottom" Margin="5 0 0 0"/>
+                                    </StackPanel>
+
+                                    <TextBlock Text="Sonnenaufgang" FontSize="12" Margin="0 2 0 0" Foreground="#a0a0a0"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 25 0 0">
+                                <Image Source="/Bilder/sunset.png" Width="40" Height="40" Margin="0 0 10 0"/>
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Sonnenuntergang}"  FontSize="16" FontWeight="SemiBold"/>
+                                        <TextBlock Text="Uhr" FontSize="12" VerticalAlignment="Bottom" Margin="5 0 0 0"/>
+                                    </StackPanel>
+                                    <TextBlock Text="Sonnenuntergang" FontSize="12" Margin="0 2 0 0" Foreground="#a0a0a0"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <!--Widget 4-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <Grid>
+                            <TextBlock Text="Luftfeuchtigkeit" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding Luftfeuchtigkeit}" FontSize="34" FontWeight="SemiBold"/>
+                                <TextBlock Text="%" FontSize="14" VerticalAlignment="Bottom" Margin="5 0 0 3"/>
+                            </StackPanel>
+
+                            <Slider Value="{Binding SliderLuftfeuchtigkeit, Mode=OneWay}" Style="{DynamicResource SliderStyle}" Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="90"/>
+                        </Grid>
+                    </Border>
+
+                    <!--Widget 5-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <Grid>
+                            <TextBlock Text="Luftdruck" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding Luftdruck}" FontSize="34" FontWeight="SemiBold"/>
+                                <TextBlock Text="mbar" FontSize="14" VerticalAlignment="Bottom" Margin="5 0 0 3"/>
+                            </StackPanel>
+
+                            <Slider Value="{Binding SliderLuftfeuchtigkeit, Mode=OneWay}" Style="{DynamicResource SliderStyle}" Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="90"/>
+                        </Grid>
+                    </Border>
+
+                    <!--Widget 6-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <Grid>
+                            <TextBlock Text="Luftqualität" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding Luftqualitaet}" FontSize="34" FontWeight="SemiBold"/>
+                                <TextBlock Text="aqi" FontSize="14" VerticalAlignment="Bottom" Margin="5 0 0 3"/>
+                            </StackPanel>
+
+                            <Slider Value="{Binding SLiderLuftqualitaet, Mode=OneWay}" Style="{DynamicResource SliderStyle}" Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="90"/>
+
+                        </Grid>
+                    </Border>
+
+                    <!--Widget 7-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <Grid>
+                            <TextBlock Text="Innen-Temperatur" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding Innentemperatur}" FontSize="34" FontWeight="SemiBold"/>
+                                <TextBlock Text="°C" FontSize="14" VerticalAlignment="Bottom" Margin="5 0 0 3"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                                <TextBlock Text="{Binding InnenTemperaturStatus}" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                                <Image Source="{Binding InnenTemperaturStatusBild}" Width="25" Height="25" Margin="10 0 0 0"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <!--Widget 8-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <Grid>
+                            <TextBlock Text="Innen-Luftfeuchtigkeit" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding InnenLuftfeuchtigkeit}" FontSize="34" FontWeight="SemiBold"/>
+                                <TextBlock Text="%" FontSize="14" VerticalAlignment="Bottom" Margin="5 0 0 3"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                                <TextBlock Text="{Binding InnenLuftfeuchtigkeitStatus}" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                                <Image Source="{Binding InnenLuftfeuchtigkeitStatusBild}" Width="25" Height="25" Margin="10 0 0 0"/>
+                            </StackPanel>
+
+                            <Slider Value="{Binding SliderInnenLuftfeuchtigkeit, Mode=OneWay}" Style="{DynamicResource SliderStyle}" Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="90"/>
+                        </Grid>
+                    </Border>
+
+                    <!--Widget 9-->
+                    <Border Style="{StaticResource widgetBorder}">
+                        <Grid>
+                            <TextBlock Text="Innen-Luftqualität" Style="{StaticResource titleText}"/>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding InnenLuftqualitaet}" FontSize="34" FontWeight="SemiBold"/>
+                                <TextBlock Text="aqi" FontSize="14" VerticalAlignment="Bottom" Margin="5 0 0 3"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                                <TextBlock Text="{Binding NO2Status}" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                                <Image Source="{Binding NO2StatusBild}" Width="25" Height="25" Margin="10 0 0 0"/>
+                            </StackPanel>
+
+                            <Slider Value="{Binding SliderInnenLuftqualitaet, Mode=OneWay}" Style="{DynamicResource SliderStyle}" Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="90"/>
+
+                        </Grid>
+                    </Border>
+                </WrapPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
